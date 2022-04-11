@@ -80,34 +80,44 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" action="includes/form_1.php" novalidate>
 					<div class="form-group">
-						<label>Nom</label>
-						<input id="name" class="form-control" required />
+						<label for="name">Nom</label>
+						<input id="name" name="name" class="form-control" type="text"/>
 					</div>
 					<div class="form-group">
-						<label>Adresse email</label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="email">Adresse email</label>
+						<input id="email" name="email" class="form-control" type="email" required autofocus/>
 					</div>
 					<div class="form-group">
-						<label>Comment nous avez-vous connu ?</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="info">Comment nous avez-vous connu ?</label>
+						<select name="info" id="info">
+							<option value="connaissance">Part une connaissance.</option>
+							<option value="web" selected>En navigant sur Internet.</option>
+							<option value="réseaux sociaux">En surfant sur les réseaux sociaux.</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<textarea id="message" 
+						          name="message" 
+						          class="form-control" 
+								  minlength="10"
+								  rows="4" cols="50" required>
+						</textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" 
+					       type="submit" value="Envoyer"/>			
 				</form>
 			</div>
 			<div class="col-sm-6">
 				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					contact@agencelapanthere.com<br>
+					2 place Sathonay 69001 Lyon<br>
 				</p>
+				<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
 			</div>
 		</div>
 	</div>
