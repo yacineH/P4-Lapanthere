@@ -7769,11 +7769,15 @@ button.close {
 .pager:before,
 .panel-body:after,
 .panel-body:before,
-.row:after,
-.row:before {
+.row:after{
     display: table;
     content: " "
 }
+/* .row:after,
+.row:before {
+    display: table;
+    content: " "
+} */
 
 .btn-group-vertical>.btn-group:after,
 .btn-toolbar:after,
