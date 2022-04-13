@@ -27,6 +27,20 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    text-align: center;
+}
+.lk{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -651,7 +665,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     /* color: #575757!important; */
     color: #847171!important;
 }
@@ -1047,3 +1061,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
