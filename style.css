@@ -40,6 +40,9 @@ a:hover {
     flex-direction: column;
     line-height: 3;
 }
+.bgc-atomic-tangerine{
+    background-color: #F3976C;
+}
 
 .bloc {
     width: 100%;
@@ -788,8 +791,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    /* background-color: #F3976C; */
-    background-color: #9D2216;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -799,8 +801,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    /* background: #F3976C; */
-    background:#9D2216 ;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
