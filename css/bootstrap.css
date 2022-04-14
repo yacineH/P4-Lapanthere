@@ -1,31 +1,4 @@
 
-Skip to content
-Pulls
-Issues
-Marketplace
-Explore
-@yacineH
-yacineH /
-P4-Lapanthere
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-More
-P4-Lapanthere/css/bootstrap.css
-@yacineH
-yacineH changement font-size accesibilité
-Latest commit 416d165 6 hours ago
-History
-1 contributor
-8084 lines (6891 sloc) 148 KB
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -7713,10 +7686,9 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
