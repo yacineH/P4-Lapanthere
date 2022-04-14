@@ -213,7 +213,7 @@ a:hover {
 .d-bloc .panel,
 .l-bloc {
     /* color: rgba(0, 0, 0, .5); */
-    color: rgba(129, 110, 110, .98);
+    color: rgba(0, 0, 0,.8);
 }
 
 .d-bloc .panel button:hover,
@@ -670,7 +670,7 @@ a {
     font-family: "helvetica";
     font-weight: 600;
     /* color: #575757!important; */
-    color: #847171!important;
+    color: #000000!important;
 }
 
 .container {
@@ -733,7 +733,7 @@ h3 {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #847171!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
