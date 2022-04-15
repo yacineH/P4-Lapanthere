@@ -595,13 +595,12 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-    padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .close-lightbox {
@@ -1064,5 +1063,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .lightbox-caption {
+        font-size: 15px;
     }
 }
