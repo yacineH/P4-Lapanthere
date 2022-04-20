@@ -5,4 +5,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /js/
 
-sitemap: https://github.com/yacineH/P4-Lapanthere/sitemap.txt
+sitemap: https://github.com/yacineH/P4-Lapanthere/sitemap.xml
